@@ -10,7 +10,7 @@ function setup() {
 	cv.background(255, 255, 255)
 
 	// Start the socket connection
-	socket = io.connect('http://localhost:3000')
+	socket = io.connect('https://sample-repo-nu.vercel.app:3000/')
 
 	// Callback function
 	socket.on('mouse', data => {
